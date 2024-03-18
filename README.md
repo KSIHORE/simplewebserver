@@ -22,43 +22,51 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
-ffrom http.server import HTTPServer, BaseHTTPRequestHandler
+NAME: KISHORE
+REF.NO:212222110020
+```
+```
+from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
+<!DOCTYPE html>
 <html>
-<title>software companies</title>
+<head>
+<title>My webserver</title>
+</head>
 <body>
-<table border="3" cellspacing="2" cellpadding="6">
-<caption>Top 5 Revenue Generating Software Companies</caption>
+<table border=2>
 <tr>
-	<th>S.no</th>
-	<th>Company</th>
-	<th>Revenue</th>
+<th>Company</th> <th>Revenue</th> <th>Financial Year</th>
 </tr>
 <tr>
-	<td>1</td>
-	<td>Microsoft</td>
-	<td>65 Billion</td>
+<td>Micro Soft</td> <td>$9034</td> <td>2014</td>
 </tr>
 <tr>
-	<td>2</td>
-	<td>Oracle</td>
-	<td>29.6 Billion</td>
+<td> oracle</td>
+<td> $37.1</td>
+<td> 2013</td>
 </tr>
 <tr>
-	<td>3</td>
-	<td>IBM</td>
-	<td>29.1 Billion</td>
+<td> Micro Soft</td>
+<td> $86.6</td>
+<td> 2014</td>
 </tr>
 <tr>
-	<td>4</td>
-	<td>SAP</td>
-	<td>6.4 Billion</td>
+<td> sap</td>
+<td> $26.9</td>
+<td> 2012</td>
 </tr>
 <tr>
-	<td>5</td>
-	<td>Symantec</td>
-	<td>5.6 Billion</td>
+<td> intuit</td>
+<td> $4.6</td>
+<td> 2013</td>
 </tr>
+<tr>
+<td> IT</td>
+<td> $3.8</td>
+<td> 2013</td>
+</tr>
+</table>
 </body>
 </html>
 """
@@ -76,6 +84,8 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
-<img width="496" alt="image" src="https://github.com/KSIHORE/simplewebserver/assets/151484879/707d4abf-f33e-4ae5-bd0f-36798e1db0b8"><img width="210" alt="image" src="https://github.com/KSIHORE/simplewebserver/assets/151484879/64199925-9ef8-417d-8b1c-6057157279aa">
+<img width="498" alt="image" src="https://github.com/KSIHORE/simplewebserver/assets/151484879/e3d4a767-c255-4771-8586-1e8aebdc3011">
+<img width="496" alt="image" src="https://github.com/KSIHORE/simplewebserver/assets/151484879/99e47c3f-c772-4608-9a92-0bb1bc1d997a">
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
